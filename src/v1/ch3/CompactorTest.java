@@ -27,8 +27,7 @@ class Person1Compactor implements Comparator<Person1> {
 		return o1.getAge() - o2.getAge();
 	}
 }
-
-class Person1 {
+class Person1{
 	private String name;
 	private int age;
 
